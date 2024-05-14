@@ -1,7 +1,0 @@
-2024-05-14 14:10:16	1.2s	trusting_ekeblad	ERR	925aa6f1a978ce4f5d855507c4079439	cfb1eea3-9692-4cf1-9228-fa3373f85112	nextflow run python-nextflow.nf -process.echo
-2024-05-14 14:11:36	1.2s	irreverent_yalow	OK	f8ba45f7ee4e1ffaa4a1eda95e454d7d	0135ead4-ccca-4437-bf80-4b51adb7cccb	nextflow run python-nextflow.nf -process.echo
-2024-05-14 14:12:35	1.5s	lonely_solvay	OK	85453e2ff3bc8a062750d4524609ef30	9131ed8e-2cf2-4483-b436-b90833881565	nextflow run python-nextflow.nf process.echo
-2024-05-14 14:13:16	1.1s	prickly_descartes	OK	85453e2ff3bc8a062750d4524609ef30	fb64f0a9-15ce-4d12-b7e3-d4900ed65450	nextflow run python-nextflow.nf process.echo
-2024-05-14 14:15:42	1.1s	furious_tuckerman	OK	3aabd3f8330c47c59b0d3da72a24f610	1b648b6b-1e2f-4133-b710-8e457650b18d	nextflow run python-nextflow.nf process.echo
-2024-05-14 14:16:02	1.5s	astonishing_swartz	OK	3aabd3f8330c47c59b0d3da72a24f610	c169fef3-beab-4477-9993-8a61c7e53fce	nextflow run python-nextflow.nf -process.echo
-2024-05-14 14:16:39	1.1s	agitated_cantor	OK	d931748dee27d49ba98d8017ae36988b	ba9c07c0-d5bd-433c-bab4-6168e1e08818	nextflow run python-nextflow.nf -process.echo
