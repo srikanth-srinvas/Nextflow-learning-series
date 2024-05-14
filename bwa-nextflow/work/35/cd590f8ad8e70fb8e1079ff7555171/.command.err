@@ -1,9 +1,0 @@
-[bwa_index] Pack FASTA... 0.03 sec
-[bwa_index] Construct BWT for the packed sequence...
-[bwa_index] 0.85 seconds elapse.
-[bwa_index] Update BWT... 0.02 sec
-[bwa_index] Pack forward-only FASTA... 0.02 sec
-[bwa_index] Construct SA from BWT and Occ... 0.22 sec
-[main] Version: 0.7.18-r1243-dirty
-[main] CMD: bwa index klebsiella_reference.fasta
-[main] Real time: 1.153 sec; CPU: 1.137 sec
