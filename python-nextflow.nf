@@ -1,4 +1,4 @@
-process helloworld {
+process addition {
 """
 #!/usr/bin/env python3
 
@@ -10,6 +10,6 @@ print(x+y)
 }
 
 workflow {
-helloworld()
+addition()
 
 }
