@@ -3,26 +3,24 @@ params.fastqdir="/Users/srikanth/data/scripts/nextflow/genome_assembly/fastqs"
 
 process download {
 
-publishDir("${params.fastqdir}" , mode: 'copy')
+    publishDir("${params.fastqdir}", mode: 'copy')
 
-input:
- path linkfile
+    input:
+    path linkfile
 
-output:
- path "*" , emit: outputfile
+    output:
+    path "*", emit: outputfile
 
-script:
-"""
-
-cat $linkfile | xargs -i -P 2 wget '{}'
-"""
-
+    script:
+    """
+    cat $linkfile | xargs -I {} -P 2 wget '{}'
+    """
 }
 
-workflow  {
+workflow {
 
-link_ch=Channel.fromPath(params.linkfile)
-download(link_ch)
-download.out.outputfile.view()
+    link_ch = Channel.fromPath(params.linkfile)
+    download(link_ch)
+    download.out.outputfile.view()
 
 }
