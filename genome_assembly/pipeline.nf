@@ -34,7 +34,7 @@ process assembly {
 
     script:
     """
-    echo ${read1.simpleName} | cut -d'_' -f1 | xargs -i spades.py --careful -1 $read1 -2 $read2 -o '{}'
+    echo ${read1.simpleName} | cut -d'_' -f1 | xargs -I {} spades.py --careful -1 $read1 -2 $read2 -o '{}'
     """
 }
 
