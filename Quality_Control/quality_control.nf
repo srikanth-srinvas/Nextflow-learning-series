@@ -1,4 +1,5 @@
 params.fastq = "/Users/srikanth/data/scripts/example_data/fastqs_forQC/*.fastq.gz"
+params.qc_report = "/Users/srikanth/data/scripts/nextflow/Quality_Control"
 
 process QC {
     input:
