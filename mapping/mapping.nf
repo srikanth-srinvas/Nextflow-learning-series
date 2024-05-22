@@ -32,6 +32,5 @@ workflow {
     fastq_ch = Channel.fromFilePairs(params.fastq)
 
     // Run the mapping process
-    map(index_ch, ref_ch, fastq_ch)
-    map.out.view()
+    mapping(index_ch, ref_ch, fastq_ch)
 }
